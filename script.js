@@ -8,7 +8,7 @@ window.onload = function () {
 
 async function getBitcoin() {
     await fetch(api_url_bitcoin).then(response => response.json()).then(response => {
-        document.getElementById('bitcoin').innerText = response[0]['price_usd'];
+        document.getElementById('bitcoin').innerText = "$" + response[0]['price_usd'];
     }).catch();
 }
 
