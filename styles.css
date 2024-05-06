@@ -1,0 +1,50 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.weather-widget {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.weather-info {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon {
+    font-size: 48px;
+    color: #0073e6;
+    margin-bottom: 10px;
+}
+
+.temperature {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.wind,
+.wind-direction,
+.current-time {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+i.material-icons {
+    font-size: 18px;
+    margin-right: 5px;
+}
